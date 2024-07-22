@@ -1,18 +1,35 @@
-## Getting Started
+Diagrama iphone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+```mermaid
+flowchart TD
+    A{Iphone}
+    A --> B[Reprodutor Musical]
+    A --> F[Aparelho Telefônico]
+    A --> J[Navegador na Internet]
+    B[Reprodutor Musical] --> C(Tocar) 
+    B --> D(Pausar)
+    B --> E(Selecionar Música)
+    F[Aparelho Telefônico] --> G(Ligar) 
+    F --> H[Atender]
+    F --> I[Iniciar Correio de Voz]
+    J[Navegador na Internet] --> K(Exibir Página) 
+    J --> L[Adicionar Nova Aba]
+    J --> M[Atualizar Página]
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```
+```
+flowchart TD
+    A{Iphone}
+    A --> B[Reprodutor Musical]
+    A --> F[Aparelho Telefônico]
+    A --> J[Navegador na Internet]
+    B[Reprodutor Musical] --> C(Tocar) 
+    B --> D(Pausar)
+    B --> E(Selecionar Música)
+    F[Aparelho Telefônico] --> G(Ligar) 
+    F --> H[Atender]
+    F --> I[Iniciar Correio de Voz]
+    J[Navegador na Internet] --> K(Exibir Página) 
+    J --> L[Adicionar Nova Aba]
+    J --> M[Atualizar Página]
+```
